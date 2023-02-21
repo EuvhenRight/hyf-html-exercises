@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+    font-family: 'Play', sans-serif;
+    padding: 0;
+    outline: none;
+    
+}
+
+body, html {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: block;
+  }
+
+  header {
+    width: 100%;
+    padding: 10px 0.5% 0 0.5%;
+    background: transparent;
+    float: left;
+    position: fixed;
+    background-color: lightgray;
+    display: flex;
+    align-items: flex-end;
+  }
+  header img {
+    width: 250px;
+    position: relative;
+    right: 100%;
+
+  } 
+
+  #navigation {
+    font-size: 15pt;
+    text-align: right;
+    margin-right: 25px;
+  }
+
+  #navigation a {
+    text-decoration: none;
+    color: darkviolet;
+    padding-left: 30px;
+  }
+  
+  #Me img{
+    width: 400px;
+  }
+  #Experience img{
+    width: 400px;
+  }
+
+  #Education img{
+    width: 400px;
+  }
+
+  #Interests img{
+    width: 400px;
+  }
+
+  .main_content {
+    padding-top: 220px;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+  }

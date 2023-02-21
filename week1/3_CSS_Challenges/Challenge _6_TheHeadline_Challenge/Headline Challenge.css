@@ -1,0 +1,23 @@
+* {
+    font-family: 'Grenze Gotisch', cursive;
+    padding-top: 10px;
+    text-align: right;}
+
+body {
+    background-image: url(https://cs8.pikabu.ru/post_img/big/2016/08/23/11/1471978558158744674.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 50 pt;
+    color: black;
+    /* font-weight: 400; */
+}
+
+h2 {
+    font-size: 25 pt;
+}
+
+h3 {
+    font-size: 20 pt;
+}
