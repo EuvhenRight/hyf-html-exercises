@@ -1,3 +1,3 @@
-1.Create will a hidden folder or file you can with command touch and before name add . . If you would like to see this file: ls -a
-2. mkdir -p Users/myusername/these/folders/are/just/for/fun
-3. For exsample echo first message > test1, echo second message > test2, cat test1 test2 > tests
+1.Create will a hidden folder or file you can with command touch and before name add . . If you would like to see this file: ls -a;
+2. mkdir -p Users/myusername/these/folders/are/just/for/fun;
+3. echo "first message" > test.txt; echo "second message" >> test.txt
