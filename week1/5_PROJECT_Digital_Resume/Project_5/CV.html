@@ -14,75 +14,124 @@
 </head>
 
 <body>
-
     <header>
-        <div id='logo' onClick=slowScroll ('#top')>
-            <img src="logo.png" alt="logo">
-        </div>
-        <nav id='navigation'>
-            <a href='#' title="Me" onClick=slowScroll(Me)>It`s Me</a>
-            <a href='#' title="Experience" onClick=slowScroll(Experience)>Experience</a>
-            <a href='#' title="Education" onClick=slowScroll(Education)"">Education</a>
-            <a href='#' title="Interests" onClick=slowScroll(Interests)>Interests</a>
+        <nav>
+            <ul id='navigate'>
+                <li><a href='#Me' title="Me">It`s Me</a></li>
+                <li><a href='#Experience' title="Experience">Experience</a></li>
+                <li><a href='#Education' title="Education">Education</a></li>
+                <li><a href='#Interests' title="Interests">Interests</a></li>
+                <li><a href='#Contacts' title="Contacts">Contacts</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="main_content">
-        <article id='Me'>
-            <h2>Yevhen Uhnivenko</h2>
-            <img src="I am.jpg" alt="">
-        </article>
-        <article id='Experience'>
-            <h2>Experience</h2>
-            <img src="EXPERIENCE.jpeg" alt="Experience">
-            <p>
-                <br>2018 — FEBRUARY 2022</br>
-                <br>PRESIDENT OF SALES</br>
-                <br>I HOLD THE POSITION OF COMMERCIAL DIRECTOR OR SALES DIRECTOR IN HIGH TECH AEROSOL.</br>
-                <br>Responsibilities:
-                Carried out marketing research in the advertising services market Organized active sales of own
-                production to corporate clients A proposal was developed for the development of new market segments,
-                identifying market entry with a variety of products
-                Participated in the development of business plans for the development of the enterprise within his
-                qualifications
-                Controlled the implementation of the financial and economic results of the commercial activities of the
-                enterprise used the accounting of the fulfillment of orders and contracts
-                Achievements:
-                Created his production line and laboratory for the development of technical products Certification of
-                the quality management system according to the international standard ISO 9001:2015
-                Professional sales team Multiple brands Distribution, market Ukraine and partly Europe Range - up to 150
-                types of products
-                The annual turnover of the company is 5,000,000 bottles</br>
-                <br> Website: https://www.hta.com.ua </br>
-            </p>
-        </article>
-        <article id='Education'>
-            <h2>Education</h2>
-            <h1>HACKYOURFUTURE</h1>
-            <img src="HYF.png" alt="HYF">
-            <p>
-                <br>THE BEST SCHOOL OF THE WORLD</br>
-                I wont to be: FULLSTACK DEVEROPER MERN JS
-            </p>
-        </article>
-        <article id='Interests'>
-            <img src="Interest.png" alt="Interest">
-            <div class="Interest">
-                <h2>Interests</h2>
-                <ul>Books</ul>
-                <ul>Learn</ul>
-                <ul>Adrenalin</ul>
-                <ul>Jogging</ul>
-                <ul>Traveling</ul>
-            </div>
-        </article>
-    </div>
-    <footer>
-        <h3>Contact</h3>
-        <ul>
-            <li>tel: +31-68-763-000-5</li>
-            <li> e-mail: ugnivenko.ea@gmail.com</li>
-            <li>https://github.com/EuvhenRight</li>
-        </ul>
+    <main class="main_content">
+        <section id='Me'>
+            <table id="about">
+                <tr>
+                    <td>
+                        <img class="MyPhoto" src="./pic/I am.jpg" alt="I`m">
+                    </td>
+                    <td class="MyLinks">
+                        <h1>Yevhen Uhnivenko</h1>
+                        <p>All the time I worked in sales, but everything in the world is changing. Now I'm studying
+                            to
+                            be a
+                            developer in <em>the Netherlands</em> for software. I'm thirty-nine years old and I
+                            think
+                            that if
+                            you want to
+                            be somebody, you have to study and want it badly.</p>
+                        <a href="https://www.linkedin.com/in/yevhen-uhnivenko-3a9503161/?locale=en_US"><img
+                                src="./pic/Linkedin.png"></a>
+                        <a href="https://github.com/EuvhenRight"><img src="./pic/Git.png"></a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id='Experience'>
+            <table id="Ex">
+                <tr>
+                    <td class="textEx">
+                        <h1>Experience</h1>
+                        <p>
+                            <br>2018 — FEBRUARY 2022</br>
+                            <br>PRESIDENT OF SALES</br>
+                            <br>I HOLD THE POSITION OF COMMERCIAL DIRECTOR OR SALES DIRECTOR IN HIGH TECH AEROSOL.</br>
+                            <a href="https://www.hta.com.ua"><img src="./pic/HTA.png"></a>
+                            <br>Responsibilities:
+                            Carried out marketing research in the advertising services market Organized active sales of
+                            own
+                            production to corporate clients A proposal was developed for the development of new market
+                            segments,
+                            identifying market entry with a variety of products
+                            Participated in the development of business plans for the development of the enterprise
+                            within his
+                            qualifications
+                            Controlled the implementation of the financial and economic results of the commercial
+                            activities of
+                            the
+                            enterprise used the accounting of the fulfillment of orders and contracts
+                            Achievements:
+                            Created his production line and laboratory for the development of technical products
+                            Certification
+                            of
+                            the quality management system according to the international standard ISO 9001:2015
+                            Professional sales team Multiple brands Distribution, market Ukraine and partly Europe Range
+                            - up to
+                            150
+                            types of products
+                            The annual turnover of the company is 5,000,000 bottles</br>
+                        </p>
+                    </td>
+                    <td>
+                        <img class="photoEx" src="./pic/EXPERIENCE.jpeg" alt="Experience">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id='Education'>
+            <table id="Ed">
+                <tr>
+                    <td>
+                        <a href="https://www.hackyourfuture.net/"><img class="photoEd" src="./pic/HYF.jpeg"
+                                alt="HYF"></a>
+                    </td>
+                    <td class="textEd">
+                        <h1>HACKYOURFUTURE</h1>
+                        <p>We train people with a refugee background to become web developers and software testers
+                            through a free seven month program. After the education, graduates start their careers at
+                            one of our partner companies.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id='Interests'>
+            <table id="Interests_block">
+                <tr>
+                    <td class="textInter">
+                        <h1>Interests</h1>
+                        <p><br>IT</br></p>
+                        <p><br>Books</br></p>
+                        <p><br>Adrenaline</br></p>
+                        <p><br>Learn</br></p>
+                        <p><br>Anime</br></p>
+                    </td>
+                    <td>
+                        <img class="photoInter" src="./pic/Interests.jpeg" alt="Interests">
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer id="Contacts">
+        <div class="tel">
+            <h1>Contacts</h1>
+            <ul>
+                <li>tel: +31-68-763-000-5</li>
+                <li> e-mail: ugnivenko.ea@gmail.com</li>
+            </ul>
+        </div>
     </footer>
 
 </body>
